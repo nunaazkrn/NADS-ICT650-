@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.homepage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:5:22-76
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
+15-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:24:22-64
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <application
+27-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:6:5-39:19
+28        android:allowBackup="true"
+28-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:7:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\1602505273d43f41d2f450ba7fa6ad4f\core-1.5.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:8:9-43
+33        android:label="Hazards Map"
+33-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:9:9-36
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:10:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:11:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.Homepage"
+37-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:12:9-46
+38        android:usesCleartextTraffic="true" >
+38-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:13:9-44
+39        <meta-data
+39-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:15:9-17:71
+40            android:name="com.google.android.geo.API_KEY"
+40-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:16:13-58
+41            android:value="AIzaSyDChrfzsvsAVlzAMOv9AYkl2NfPfjIrjn0" />
+41-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:17:13-68
+42
+43        <activity android:name="com.example.homepage.map" />
+43-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:19:9-50
+43-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:19:19-38
+44        <activity android:name="com.example.homepage.copyright" />
+44-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:20:9-47
+44-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:20:19-44
+45        <activity android:name="com.example.homepage.about" />
+45-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:21:9-43
+45-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:21:19-40
+46        <activity android:name="com.example.homepage.news" />
+46-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:22:9-42
+46-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:22:19-39
+47        <activity android:name="com.example.homepage.MainActivity" >
+47-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:23:9-29:20
+47-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:23:19-47
+48            <intent-filter>
+48-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:24:13-28:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:25:17-69
+49-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:25:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:27:17-76
+51-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:27:27-73
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:30:9-38:20
+55            android:name="com.example.homepage.splash"
+55-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:31:13-35
+56            android:theme="@style/Theme.AppCompat.NoActionBar" >
+56-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:32:13-63
+57            <intent-filter>
+57-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:33:13-37:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:25:17-69
+58-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:25:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:36:17-77
+60-->C:\Users\Syafiqah\Downloads\Hazard map(mobile apps)\Hazard map\app\src\main\AndroidManifest.xml:36:27-74
+61            </intent-filter>
+62        </activity>
+63        <!-- Needs to be explicitly declared on P+ -->
+64        <uses-library
+64-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+65            android:name="org.apache.http.legacy"
+65-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+66            android:required="false" />
+66-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syafiqah\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+76    </application>
+77
+78</manifest>

@@ -1,0 +1,22 @@
+com/example/homepage/about.java
+ com.example.homepage.about
+ com.example.homepage.about$1
+com/example/homepage/news.java
+ com.example.homepage.news
+ com.example.homepage.news$Connection
+com/example/homepage/splash.java
+ com.example.homepage.splash
+ com.example.homepage.splash$1
+com/example/homepage/MainActivity.java
+ com.example.homepage.MainActivity
+com/example/homepage/copyright.java
+ com.example.homepage.copyright
+com/example/homepage/Maklumat.java
+ com.example.homepage.Maklumat
+com/example/homepage/map.java
+ com.example.homepage.map
+ com.example.homepage.map$1
+ com.example.homepage.map$2
+ com.example.homepage.map$3
+com/example/homepage/BuildConfig.java
+ com.example.homepage.BuildConfig
