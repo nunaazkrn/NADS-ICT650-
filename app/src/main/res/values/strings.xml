@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homepage</string>
+    <string name="copyright_169_hazards_map">Copyright © Hazards Map</string>
+    <string name="any_illegal_reproduction_of_this_content_will_result_in_immediate_legal_action">Any illegal reproduction of this content will result in immediate legal action.</string>
+    <string name="unless_otherwise_indicated_the_site_is_our_proprietary_property_and_all_source_code_database_functionality_software_website_designs_audio_video_text_photographs_and_graphics_on_the_site_collectively_the_content_and_the_trademarks_service_marks_and_logos_contained_there_in_the_marks_are_owned_or_controlled_by_us_or_licensed_to_us_and_are_protected_by_copyright_and_trademark_laws_and_various_other_intellectual_property_rights_and_unfair_competition_laws_foreign_jurisdictions_and_international_conventions">Unless otherwise indicated, the Site is our proprietary property and all source code, database, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the Content) and the trademarks, service marks, and logos contained there in (The Marks) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws, foreign jurisdictions, and international conventions.</string>
+    <string name="disclaimer">DISCLAIMER</string>
+</resources>

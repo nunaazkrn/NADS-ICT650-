@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="280dp"
+        android:layout_height="257dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/appicon" />
+
+    <TextView
+        android:id="@+id/splash"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="61dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:shadowColor="#fff"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="7"
+        android:text="Hazards Map"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+</RelativeLayout>
